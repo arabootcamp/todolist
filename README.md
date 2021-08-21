@@ -2,5 +2,4 @@
 
 Ejecutar: 
 
-npm install
-npm run serve
+npm install y luego, npm run serve
