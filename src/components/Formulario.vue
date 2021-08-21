@@ -17,6 +17,17 @@
         <button v-on:click="sortItems($event)" class="btn btn-warning mx-2">Ordenar</button>
         <button v-on:click="deleteItem($event)" class="btn btn-danger">Eliminar</button>
       </div>
+    </form>
+    <div class="d-inline-block text-center my-5">
+      <h2 class="text-secondary">Lista</h2>
+      <ul class="">
+        <li class="text-start" v-for="(item,index) in array" :key="index">{{item}}</li>
+      </ul>
+    </div>
+  </div>
+</template>
+
+<script>
   export default {
     name: 'Formulario',
     data() {
